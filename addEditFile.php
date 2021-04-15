@@ -19,6 +19,7 @@ if(!$conn)
 	  $("#form1").validate();
 	});
 </script>
+
 <form name="form1" id="form1" action="add_db.php">
 <table align="center">
 	<tr>
@@ -37,9 +38,47 @@ if(!$conn)
 		<td colspan="2"><input type="submit" name="s1" id="s1" value="Add" /></td>
 	</tr> 
 </table>
+</form>
 
 
-<br />
+<form name="form1" id="form1" action="add_db.php">
+<table align="center">
+	<tr>
+		<td>Name:</td>
+		<td><input type="text" name="name" id="name" value="" required /></td>
+	</tr> 
+	<tr>
+		<td>Email:</td>
+		<td><input type="email" name="email" id="email" value=""  required/></td>
+	</tr> 
+	<tr>
+		<td>Phone:</td>
+		<td><input type="text" name="phone" id="phone" value="" required /></td>
+	</tr> 
+	<tr>
+		<td colspan="2"><input type="submit" name="s1" id="s1" value="Add" /></td>
+	</tr> 
+</table>
+</form>
+
+<form name="form1" id="form1" action="add_db.php">
+<table align="center">
+	<tr>
+		<td>Name:</td>
+		<td><input type="text" name="name" id="name" value="" required /></td>
+	</tr> 
+	<tr>
+		<td>Email:</td>
+		<td><input type="email" name="email" id="email" value=""  required/></td>
+	</tr> 
+	<tr>
+		<td>Phone:</td>
+		<td><input type="text" name="phone" id="phone" value="" required /></td>
+	</tr> 
+	<tr>
+		<td colspan="2"><input type="submit" name="s1" id="s1" value="Add" /></td>
+	</tr> 
+</table>
 </form>
 
 
